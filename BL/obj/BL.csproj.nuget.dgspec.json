@@ -1,0 +1,360 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/arthurlaurijssen/RiderProjects/empower-tech-resume-api/BL/BL.csproj": {}
+  },
+  "projects": {
+    "/Users/arthurlaurijssen/RiderProjects/empower-tech-resume-api/BL/BL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/arthurlaurijssen/RiderProjects/empower-tech-resume-api/BL/BL.csproj",
+        "projectName": "BL",
+        "projectPath": "/Users/arthurlaurijssen/RiderProjects/empower-tech-resume-api/BL/BL.csproj",
+        "packagesPath": "/Users/arthurlaurijssen/.nuget/packages/",
+        "outputPath": "/Users/arthurlaurijssen/RiderProjects/empower-tech-resume-api/BL/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/arthurlaurijssen/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/arthurlaurijssen/RiderProjects/empower-tech-resume-api/DAL/DAL.csproj": {
+                "projectPath": "/Users/arthurlaurijssen/RiderProjects/empower-tech-resume-api/DAL/DAL.csproj"
+              },
+              "/Users/arthurlaurijssen/RiderProjects/empower-tech-resume-api/Domain/Domain.csproj": {
+                "projectPath": "/Users/arthurlaurijssen/RiderProjects/empower-tech-resume-api/Domain/Domain.csproj"
+              },
+              "/Users/arthurlaurijssen/RiderProjects/empower-tech-resume-api/Infrastructure/Infrastructure.csproj": {
+                "projectPath": "/Users/arthurlaurijssen/RiderProjects/empower-tech-resume-api/Infrastructure/Infrastructure.csproj"
+              },
+              "/Users/arthurlaurijssen/RiderProjects/empower-tech-resume-api/Shared/Shared.csproj": {
+                "projectPath": "/Users/arthurlaurijssen/RiderProjects/empower-tech-resume-api/Shared/Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/arthurlaurijssen/RiderProjects/empower-tech-resume-api/DAL/DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/arthurlaurijssen/RiderProjects/empower-tech-resume-api/DAL/DAL.csproj",
+        "projectName": "DAL",
+        "projectPath": "/Users/arthurlaurijssen/RiderProjects/empower-tech-resume-api/DAL/DAL.csproj",
+        "packagesPath": "/Users/arthurlaurijssen/.nuget/packages/",
+        "outputPath": "/Users/arthurlaurijssen/RiderProjects/empower-tech-resume-api/DAL/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/arthurlaurijssen/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/arthurlaurijssen/RiderProjects/empower-tech-resume-api/Domain/Domain.csproj": {
+                "projectPath": "/Users/arthurlaurijssen/RiderProjects/empower-tech-resume-api/Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[9.0.0-preview.2.efcore.9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/arthurlaurijssen/RiderProjects/empower-tech-resume-api/Domain/Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/arthurlaurijssen/RiderProjects/empower-tech-resume-api/Domain/Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "/Users/arthurlaurijssen/RiderProjects/empower-tech-resume-api/Domain/Domain.csproj",
+        "packagesPath": "/Users/arthurlaurijssen/.nuget/packages/",
+        "outputPath": "/Users/arthurlaurijssen/RiderProjects/empower-tech-resume-api/Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/arthurlaurijssen/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/arthurlaurijssen/RiderProjects/empower-tech-resume-api/Infrastructure/Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/arthurlaurijssen/RiderProjects/empower-tech-resume-api/Infrastructure/Infrastructure.csproj",
+        "projectName": "Infrastructure",
+        "projectPath": "/Users/arthurlaurijssen/RiderProjects/empower-tech-resume-api/Infrastructure/Infrastructure.csproj",
+        "packagesPath": "/Users/arthurlaurijssen/.nuget/packages/",
+        "outputPath": "/Users/arthurlaurijssen/RiderProjects/empower-tech-resume-api/Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/arthurlaurijssen/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Azure.Storage.Blobs": {
+              "target": "Package",
+              "version": "[12.23.0, )"
+            },
+            "Azure.Storage.Common": {
+              "target": "Package",
+              "version": "[12.22.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/arthurlaurijssen/RiderProjects/empower-tech-resume-api/Shared/Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/arthurlaurijssen/RiderProjects/empower-tech-resume-api/Shared/Shared.csproj",
+        "projectName": "Shared",
+        "projectPath": "/Users/arthurlaurijssen/RiderProjects/empower-tech-resume-api/Shared/Shared.csproj",
+        "packagesPath": "/Users/arthurlaurijssen/.nuget/packages/",
+        "outputPath": "/Users/arthurlaurijssen/RiderProjects/empower-tech-resume-api/Shared/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/arthurlaurijssen/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/arthurlaurijssen/RiderProjects/empower-tech-resume-api/Domain/Domain.csproj": {
+                "projectPath": "/Users/arthurlaurijssen/RiderProjects/empower-tech-resume-api/Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

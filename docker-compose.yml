@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  api:
+    image: mcr.microsoft.com/dotnet/aspnet:9.0
+    container_name: dotnet_api
+    restart: always
+    volumes:
+      - ./publish:/app
+    working_dir: /app
+    command: dotnet API.dll
+    environment:
+      - ASPNETCORE_URLS=http://+:80
+      - ASPNETCORE_ENVIRONMENT=Production
+      - Auth0__Domain=auth.empowertech.be
+      - Auth0__Audience=https://api.empowertech.be
+      - ConnectionStrings__MySQLConnection=Server=51.75.66.3;Database=resume_db;User=resume_db_user;Password=${DB_PASSWORD}
+      - ConnectionStrings__AzureStorageConnection=${AZURE_STORAGE_CONNECTION}
+      - Logging__LogLevel__Default=Information
+      - Logging__LogLevel__Microsoft.AspNetCore=Warning
+    ports:
+      - "5000:80"

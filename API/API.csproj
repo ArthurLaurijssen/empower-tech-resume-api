@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <LangVersion>12</LangVersion>
+      <UserSecretsId>37a3a424-49e4-4ade-ab39-05dc4158689c</UserSecretsId>
+  </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="AutoMapper" Version="13.0.1" />
+        <PackageReference Include="Azure.Storage.Blobs" Version="12.23.0" />
+        <PackageReference Include="Azure.Storage.Common" Version="12.22.0" />
+        <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.11" />
+        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.10" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.0" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.0">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.0">
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+            <PrivateAssets>all</PrivateAssets>
+        </PackageReference>
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\BL\BL.csproj" />
+        <ProjectReference Include="..\DAL\DAL.csproj" />
+        <ProjectReference Include="..\Domain\Domain.csproj" />
+        <ProjectReference Include="..\Infrastructure\Infrastructure.csproj" />
+        <ProjectReference Include="..\Shared\Shared.csproj" />
+    </ItemGroup>
+
+</Project>

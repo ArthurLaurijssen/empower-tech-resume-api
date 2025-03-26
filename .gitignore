@@ -1,0 +1,116 @@
+# Rider
+.idea/
+*.sln.iml
+.idea/*.iml
+.idea/*.xml
+*.suo
+*.user
+.vs/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+# Visual Studio files
+*.nupkg
+*.pfx
+*.snk
+.vs/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+**/Properties/launchSettings.json
+
+# Files built by Visual Studio
+*_i.c
+*_p.c
+*_h.h
+*.ilk
+*.meta
+*.obj
+*.iobj
+*.pch
+*.pdb
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*_wpftmp.csproj
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nuget.props
+*.nuget.targets
+
+# Test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NUNIT
+*.VisualState.xml
+TestResult.xml
+nunit-*.xml
+
+# Application Secrets
+appsettings.*.json
+!appsettings.example.json
+*.Development.json
+
+
+# Assembly Info
+**/AssemblyInfo.cs 
+**/[Aa]ssembly[Ii]nfo.cs
+**/GlobalAssemblyInfo.cs
+
+# Rider specific
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/dictionaries
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+
+appsettings.Development.json
+appsettings.Production.json
