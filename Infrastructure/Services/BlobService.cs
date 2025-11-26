@@ -23,7 +23,7 @@ public class BlobService(BlobServiceClient blobServiceClient, ILogger<BlobServic
         // Get the container client for the specified container
         var containerClient = blobServiceClient.GetBlobContainerClient(containerName);
 
-        // Retrieve files from the temporary directory.
+        // Retrieve files from the temporary directory
         var tempFiles = await GetBlobNamesAsync(containerName, tempDirectoryPath);
         if (!tempFiles.Any())
         {
